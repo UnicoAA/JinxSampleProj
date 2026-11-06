@@ -1,0 +1,68 @@
+/* Page layout */
+.loadout {
+  max-width: 1000px;
+  margin: auto;
+  padding: 54px 6vw;
+}
+.loadout h1 {
+  width: auto;
+  font-size: clamp(46px, 8vw, 100px);
+  line-height: 1;
+}
+.loadout h1 span {
+  position: static;
+  vertical-align: top;
+}
+.loadout section {
+  margin-top: 64px;
+  scroll-margin-top: 20px;
+}
+.loadout h2 {
+  margin-bottom: 22px;
+}
+.compare-link {
+  background: var(--pink);
+}
+/* Individual ability files */
+.ability {
+  display: flex;
+  width: auto;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 22px 0;
+  border-top: 1px solid var(--line);
+}
+.ability img {
+  border: 1px solid var(--mint);
+}
+.ability p,
+.study p {
+  max-width: 68ch;
+  margin-bottom: 0;
+}
+.ability h3,
+.study h3 {
+  font-size: 26px;
+}
+/* Screen-to-Rift comparisons */
+.study {
+  margin: 14px 0;
+  padding: 24px;
+  background: #17221d;
+  border-left: 3px solid var(--pink);
+}
+.study strong {
+  display: block;
+  color: var(--mint);
+}
+@media (min-width: 720px) {
+  .study {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 24px;
+  }
+  .study h3,
+  .study p:first-of-type {
+    grid-column: 1 / -1;
+  }
+}

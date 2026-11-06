@@ -229,3 +229,22 @@ footer {
   }
 
 }
+
+/* Keep all four letters distinct, even on a narrow screen. */
+.dossier-title {
+  display: flex;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(56px, 10vw, 144px);
+  line-height: 1.1;
+  letter-spacing: .16em;
+}
+
+.dossier-title span {
+  position: static;
+  margin-top: .18em;
+  font-size: .3em;
+  letter-spacing: normal;
+}

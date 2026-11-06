@@ -100,15 +100,15 @@ small {
 
 h1 {
   position: relative;
-  font: italic 1000 clamp(100px,13vw,210px)/.88 Impact,'Arial Black',sans-serif;
-  letter-spacing: -.06em;
+  font: italic 700 clamp(88px, 12vw, 180px)/1.06 Arial, sans-serif;
+  letter-spacing: .035em;
   margin: 32px 0 18px;
   width: max-content;
 }
 
 h1 span {
   position: absolute;
-  right: -.42em;
+  right: -.9em;
   top: -.22em;
   font: 400 .34em Arial;
   color: var(--pink);

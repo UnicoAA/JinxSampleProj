@@ -12,6 +12,7 @@
 .loadout h1 span {
   position: static;
   vertical-align: top;
+  margin-left: .4em;
 }
 .loadout section {
   margin-top: 64px;

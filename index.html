@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Jinx • Undercity Archive</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <b>
+        <i>✳</i>
+        UNDERCITY ARCHIVE
+      </b>
+      <a href="#files">Field notes ↘</a>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="portrait">
+          <img src="jinx.png" alt="Jinx reaching forward amid neon graffiti">
+          <span>FIG. 01　/　ZAUN</span>
+        </div>
+        <article>
+          <small>◉　CHARACTER DOSSIER　/　01</small>
+          <h1>
+            JINX
+            <span>✷</span>
+          </h1>
+          <h2>The Loose Cannon</h2>
+          <p>A tinkerer from Zaun with blue braids, a shark-shaped rocket launcher, and a history written all over the Undercity.</p>
+          <a class="action" href="#files">Crack open the files　↘</a>
+        </article>
+      </section>
+      <section id="files">
+        <div class="heading">
+          <small>FIELD NOTES　 /　 ZAUN ARCHIVE</small>
+          <h2>
+            Inside the dossier
+            <span>.</span>
+          </h2>
+        </div>
+        <nav aria-label="Choose a file">
+          <button data-file="0" aria-pressed="true">✧　Jinx files</button>
+          <button data-file="1">⌁　The armory</button>
+          <button data-file="2">✳　Behind Arcane</button>
+        </nav>
+        <div class="card" aria-live="polite">
+          <small id="count">
+          </small>
+          <h3 id="title">
+          </h3>
+          <p id="note">
+          </p>
+        </div>
+        <button id="next">Flip the file　→</button>
+      </section>
+    </main>
+    <footer>UNDERCITY ARCHIVE　/　Unofficial Arcane fan project</footer>
+    <script src="notes.js">
+    </script>
+  </body>
+</html>
